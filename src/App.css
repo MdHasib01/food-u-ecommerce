@@ -156,4 +156,18 @@
       -ms-flex-pack: justify;
           justify-content: space-between;
 }
+
+.jodit-status-bar {
+  visibility: hidden;
+}
+
+.text-editor {
+  width: 80%;
+}
+
+.adds-text {
+  margin: 0;
+  font-size: 0.8em;
+  color: gray;
+}
 /*# sourceMappingURL=App.css.map */

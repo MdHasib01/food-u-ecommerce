@@ -41,7 +41,7 @@ const SingleNews = () => {
               src={`data:image/png;base64,${news.image}`}
               alt=""
             />
-            <p>{news.newsDetails}</p>
+            <div dangerouslySetInnerHTML={{ __html: news.newsDetails }}></div>
             <hr />
             <hr />
             <div className="comment">

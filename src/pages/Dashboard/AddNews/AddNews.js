@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { Container } from "react-bootstrap";
+import TextEditor from "./TextEditor/TextEditor";
 
 const AddNews = () => {
   const [title, setTitle] = useState("");
@@ -40,6 +41,9 @@ const AddNews = () => {
         console.error("Error:", error);
       });
   };
+  const config = {
+    buttons: ["bold"],
+  };
   return (
     <div>
       <Container>
@@ -47,18 +51,17 @@ const AddNews = () => {
           <p>Title Here</p>
           <label>সংবাদ এর শিরোনামঃ </label>
           <input
+            required
             type="text"
             placeholder="শিরোনাম"
             onChange={(e) => setTitle(e.target.value)}
           />
           <br />
           <p>বিস্তারিত সংবাদঃ</p>
-          <textarea
-            cols="50"
-            rows="10"
-            placeholder="বিস্তারিত"
-            onChange={(e) => setNewsDetails(e.target.value)}
-          ></textarea>
+          <div className="text-editor">
+            <TextEditor setNewsDetails={setNewsDetails} config={config} />
+          </div>
+
           <br />
           <lebel for="category">ক্যাটাগরি নির্ধারণ করুনঃ </lebel>
           <select

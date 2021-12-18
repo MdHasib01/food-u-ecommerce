@@ -46,7 +46,7 @@ const LatestNews = () => {
                         {news.title}
                       </h3>
                       <p className="news-details-para">
-                        {news.newsDetails.slice(0, 200)}...
+                        {news.newsDetails.slice(3, 200)}...
                       </p>
                       <p>
                         {news.reporter}, {news.address}
@@ -77,7 +77,7 @@ const LatestNews = () => {
               width="300"
               height="250"
               src="https://i.ibb.co/HXcfLN6/9656093656252652900.gif"
-              alt=""
+              alt="adds"
             />
           </div>
         </div>
