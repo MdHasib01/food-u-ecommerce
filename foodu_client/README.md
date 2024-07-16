@@ -1,70 +1,45 @@
-# Getting Started with Create React App
+# Starting with FoodU
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is [FoodU](https://food-u.netlify.app/).
+![FoodU](https://i.ibb.co/KWWX9CG/foodU2.png)
 
-## Available Scripts
+### Some Feature FoodU
 
-In the project directory, you can run:
+- Food You is a food Ecommerce site. Every user can order food after logging in. And he/she can save his favorite food on the Wishlist page.
+user can add any product review. and all products shown on the testimonials section. 
+- There are two rols in this website user and admin.
+- Every user can see all their orders on their Dashboard and User can change passaword and update profile.
+- Admin can control whole website and every user. admin can add product or category and update or delete product or category. Admin can make any user an admin from this website user.
+- Integrated payment methods can be used to purchase products and payment using stripe or cash on delivery.
+- Admin can delete any user from this website.
+- Admin can see total number of products and categories and ordered products, total wishlist, total products review. Admin can update ordered products status. 
 
-### `yarn start`
+### Explanation of the using technologies.
+- I am designed full website using tailwind css.
+- Used Redux toolkit and useState hook for state management.
+- Used Redux toolkit query to make all API implementations.
+- Making this website api using node js, express js.
+- Mongodb is used as database.
+- I have used Mongoose library for relation inside database collection.
+- JWT package used for verify user and protected routes.
+- Express validator package used for validations.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### Frontend Technology
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+- React
+- React Router Dom
+- tailwind css
+- Redux toolkit
+- Redux toolkit Query
+- Swiper 
+- Stripe payment service
+- Some other packages
 
-### `yarn test`
+### Backend Technology
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `yarn build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Node JS
+- Express JS
+- Jsonwebtoken
+- Mongodb
+- Mongoose
+- Express-validator
